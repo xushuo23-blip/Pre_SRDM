@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: SRDM-DDPO
+Version: 0.0.1
+Requires-Python: >=3.10
+Requires-Dist: ml-collections
+Requires-Dist: absl-py
+Requires-Dist: diffusers[torch]==0.17.1
+Requires-Dist: accelerate==0.17
+Requires-Dist: wandb
+Requires-Dist: torchvision
+Requires-Dist: inflect==6.0.4
+Requires-Dist: pydantic==1.10.9
+Requires-Dist: transformers==4.30.2
+Dynamic: requires-dist
+Dynamic: requires-python
